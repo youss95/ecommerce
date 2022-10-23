@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 HELP.md
 target/
 !.mvn/wrapper/maven-wrapper.jar
@@ -31,3 +32,15 @@ build/
 
 ### VS Code ###
 .vscode/
+=======
+.idea/
+projectName.iml
+/*.classpath
+/.classpath
+/.springBeans
+*.DS_Store
+*.iml
+/build
+/local.properties
+target/
+>>>>>>> 4c07c006af60a895a12b1fdfe0e4ab86c062128f
