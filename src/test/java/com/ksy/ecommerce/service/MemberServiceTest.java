@@ -25,11 +25,12 @@ class MemberServiceTest {
     PasswordEncoder passwordEncoder;
 
     public Member createMember() {
-        MemberFormDto memberFormDto = new MemberFormDto();
-        memberFormDto.setEmail("test@email.com");
-        memberFormDto.setName("kkk");
-        memberFormDto.setAddress("seoul");
-        memberFormDto.setPassword("1234");
+        MemberFormDto memberFormDto = MemberFormDto.builder()
+                .email("ss@tess.cc")
+                .name("kkk")
+                .address("seoul")
+                .password("1234")
+                .build();
         return Member.createMember(memberFormDto, passwordEncoder);
     }
 
