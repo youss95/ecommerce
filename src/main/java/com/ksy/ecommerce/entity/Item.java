@@ -1,11 +1,15 @@
 package com.ksy.ecommerce.entity;
 
 import com.ksy.ecommerce.constant.ItemSellStatus;
+import lombok.AllArgsConstructor;
 import lombok.Data;
+import lombok.NoArgsConstructor;
 
 import javax.persistence.*;
 import java.time.LocalDateTime;
 @Table(name = "item")
+@AllArgsConstructor
+@NoArgsConstructor
 @Data
 @Entity
 public class Item {
